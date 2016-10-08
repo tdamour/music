@@ -1,0 +1,37 @@
+#header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 80px;
+	width: 100%;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.hButtonOne{
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 3px;
+	width: 45px;
+	margin-right: 5%;
+}
+
+.hButtonTwo{
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 3px;
+	width: 50px;
+	margin-right: 10%;
+}
+
+.hButtonOne:hover{
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
+
+
+.hButtonTwo:hover{
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
